@@ -1,0 +1,443 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pizza From Hell"
+    },
+    {
+      "id": 2,
+      "name": "Vega Pradise"
+    },
+    {
+      "id": 3,
+      "name": "Exxtra"
+    },
+    {
+      "id": 4,
+      "name": "Only Sweet"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Mushroom",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "Tomato",
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "name": "Chili",
+      "price": 2
+    },
+    {
+      "id": 4,
+      "name": "Pepper",
+      "price": 2.5
+    },
+    {
+      "id": 5,
+      "name": "Bacon",
+      "price": 3.25
+    },
+    {
+      "id": 6,
+      "name": "Onion",
+      "price": 2.25
+    },
+    {
+      "id": 7,
+      "name": "Glamenzá Cheese",
+      "price": 7.75
+    },
+    {
+      "id": 8,
+      "name": "Sweet Cheese",
+      "price": 6.25
+    },
+    {
+      "id": 9,
+      "name": "Kiwi",
+      "price": 7.6
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "Ghost Pepper and Tomato Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 35,
+      "category": {
+        "id": 1,
+        "name": "Pizza From Hell"
+      },
+      "recipe": [
+        {
+          "id": 3,
+          "name": "Chili",
+          "price": 2
+        },
+        {
+          "id": 6,
+          "name": "Onion",
+          "price": 2.25
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chili and Onion Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 4,
+          "name": "Pepper",
+          "price": 2.5
+        },
+        {
+          "id": 8,
+          "name": "Sweet Cheese",
+          "price": 6.25
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Italiano Pepper Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 25,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 2,
+          "name": "Tomato",
+          "price": 2.5
+        },
+        {
+          "id": 8,
+          "name": "Sweet Cheese",
+          "price": 6.25
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chili and Onion Pidizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 1,
+        "name": "Pizza From Hell"
+      },
+      "recipe": [
+        {
+          "id": 6,
+          "name": "Onion",
+          "price": 2.25
+        },
+        {
+          "id": 8,
+          "name": "Sweet Cheese",
+          "price": 6.25
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sweet Cheese and Pepper Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 30,
+      "category": {
+        "id": 2,
+        "name": "Vega Pradise"
+      },
+      "recipe": [
+        {
+          "id": 4,
+          "name": "Pepper",
+          "price": 2.5
+        },
+        {
+          "id": 1,
+          "name": "Mushroom",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sweet Cheese and Tomato Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 2,
+        "name": "Vega Pradise"
+      },
+      "recipe": [
+        {
+          "id": 2,
+          "name": "Tomato",
+          "price": 2.5
+        },
+        {
+          "id": 1,
+          "name": "Mushroom",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sweet Cheese and Onion Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 35,
+      "category": {
+        "id": 2,
+        "name": "Vega Pradise"
+      },
+      "recipe": [
+        {
+          "id": 6,
+          "name": "Onion",
+          "price": 2.25
+        },
+        {
+          "id": 1,
+          "name": "Mushroom",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mushroom and Pepper Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 4,
+          "name": "Pepper",
+          "price": 2.5
+        },
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mushroom and Tomato Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 25,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 2,
+          "name": "Tomato",
+          "price": 2.5
+        },
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mushroom and Onion Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 30,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 6,
+          "name": "Onion",
+          "price": 2.25
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Mushroom, Tomato and Onion Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 3,
+        "name": "Exxtra"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 9,
+          "name": "Kiwi",
+          "price": 7.6
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bacon and Pepper Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 1,
+          "name": "Mushroom",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Bacon and Tomato Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 25,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 7,
+          "name": "Glamenzá Cheese",
+          "price": 7.75
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bacon and Onion Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 35,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 7,
+          "name": "Glamenzá Cheese",
+          "price": 7.75
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Bacon and Kiwi Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 25,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 9,
+          "name": "Kiwi",
+          "price": 7.6
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Bacon and Mushroom Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 35,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 1,
+          "name": "Mushroom",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Bacon and Glamenzá Cheese Pizza",
+      "description": "The hottest pizza you have ever had!",
+      "price": 15,
+      "category": {
+        "id": 4,
+        "name": "Only Sweet"
+      },
+      "recipe": [
+        {
+          "id": 5,
+          "name": "Bacon",
+          "price": 3.25
+        },
+        {
+          "id": 7,
+          "name": "Glamenzá Cheese",
+          "price": 7.75
+        }
+      ]
+    }
+  ]
+}
